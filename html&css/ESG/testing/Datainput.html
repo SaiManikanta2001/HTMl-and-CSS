@@ -1,0 +1,302 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>IOT DATA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    h2 {
+      text-align: center;
+      color: #666;
+    }
+    
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+      background-color: #fff;
+    }
+    
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>IOT DATA</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ESG Category</th>
+        <th>ESG KPI</th>
+        <th>IoT Data</th>
+        <th>Measurement Unit</th>
+        <th>Time Period</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Environmental</td>
+        <td>Greenhouse Gas Emissions</td>
+        <td>1234</td>
+        <td>Tons</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Environmental</td>
+        <td>Water Consumption</td>
+        <td>5678</td>
+        <td>Gallons</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Social</td>
+        <td>Employee Diversity</td>
+        <td>100</td>
+        <td>Percentage</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Governance</td>
+        <td>Board Diversity</td>
+        <td>75</td>
+        <td>Percentage</td>
+        <td>2021</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DATA AGGREGATION</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100vh;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+  
+      .sidebar h2 {
+        margin-top: 0;
+        padding-top: 0;
+        color: #fff;
+      }
+  
+      .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+  
+      .sidebar ul li {
+        margin-bottom: 10px;
+      }
+  
+      .sidebar ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+  
+      .content {
+        margin-left: 200px;
+        padding: 20px;
+      }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    h2 {
+      text-align: center;
+      color: #666;
+    }
+    
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+      background-color: #fff;
+    }
+    
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    td[contenteditable="true"] {
+      background-color: #fff;
+    }
+    
+    td[contenteditable="true"]:focus {
+      outline: none;
+      background-color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+  <h1>DATA AGGREGATION</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ESG Category</th>
+        <th>ESG KPI</th>
+        <th>IoT Data</th>
+        <th>Measurement Unit</th>
+        <th>Time Period</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Environment -->
+      <tr>
+        <td rowspan="10">Environment</td>
+        <td contenteditable="true">Greenhouse Gas Emissions</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">kg CO2e</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Water Consumption</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Gallons per day</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Energy Efficiency</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">kWh per square foot</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Recycling Rate</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Percentage</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Air quality</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">pm</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Sustainable materials usage</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Percentage</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <!-- ... Repeat the above <tr> for a total of 8 times -->
+    </tbody>
+    <tbody>
+      <!-- Social -->
+      <tr>
+        <td rowspan="10">Social</td>
+        <td contenteditable="true">Social impact assessment</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Feedback ratio</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Occupational health and safety</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Percentage</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Stakeholder Engagement</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">count</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Fair employement practices</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Percentage</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Community Engagement</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Percentage</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <!-- ... Repeat the above <tr> for a total of 8 times -->
+    </tbody>
+    <tbody>
+      <!-- Governance -->
+      <tr>
+        <td rowspan="10">Governance</td>
+        <td contenteditable="true">Board Diversity</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">count</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Executive Compensation</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Count</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Ethical Business Interface</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Count</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Compilance with laws</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">Percentage</td>
+        <td contenteditable="true"></td>
+      </tr>
+      <!-- ... Repeat the above <tr> for a total of 8 times -->
+    </tbody>
+  </table>
+</body>
+</html>
+
+
+
+
+
+
